@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "993597161378",
-    "firebase_url": "https://moyamo-93537.firebaseio.com",
-    "project_id": "moyamo-93537",
-    "storage_bucket": "moyamo-93537.appspot.com"
+    "project_number": "386436656109",
+    "firebase_url": "https://moya-19e4e.firebaseio.com",
+    "project_id": "moya-19e4e",
+    "storage_bucket": "moya-19e4e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:993597161378:android:1bbe8f3baa679ba3467cfb",
+        "mobilesdk_app_id": "1:386436656109:android:4754d4be19b7c3cd8b55e4",
         "android_client_info": {
           "package_name": "com.example.moyamo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "993597161378-a9ok6s72dnksrm737ehvdm05vc6j4d2m.apps.googleusercontent.com",
+          "client_id": "386436656109-40v0ke85vc053e51glv7vuhns7t193nu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moyamo",
+            "certificate_hash": "594ae01ee70bf4b0e807a8dc610472d04ca6f0de"
+          }
+        },
+        {
+          "client_id": "386436656109-mgevqbqk0oh514h9i2s9k4262u28jm3a.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD6JJMbQ8iXML_dNZdr0jjvMzRSYS7hyU8"
+          "current_key": "AIzaSyCvowTdVBDkBa_rxJF8EyLJPC-LmwlrwkA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "993597161378-a9ok6s72dnksrm737ehvdm05vc6j4d2m.apps.googleusercontent.com",
+              "client_id": "386436656109-mgevqbqk0oh514h9i2s9k4262u28jm3a.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
