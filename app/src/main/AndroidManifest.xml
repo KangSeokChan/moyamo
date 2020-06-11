@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.choi.iqproject">
+    package="com.example.moyamo">
 
     <application
         android:allowBackup="true"
@@ -12,9 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".profile"></activity>
+        <activity android:name="com.example.moyamo.profile" />
+
+        <activity android:name="com.example.moyamo.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.moyamo.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -23,34 +33,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Navheadermain" />
-        <activity android:name=".Loginlayout" />
-        <activity android:name=".Joinlayout" />
-        <activity android:name=".ListQnA"/>
-        <activity android:name=".qna1"/>
-        <activity android:name=".qna2"/>
-        <activity android:name=".qna3"/>
-        <activity android:name=".qna4"/>
-        <activity android:name=".qna5"/>
-        <activity android:name=".qna6"/>
-        <activity android:name=".qna7"/>
-        <activity android:name=".qna8"/>
-        <activity android:name=".ListQnA2"/>
-        <activity android:name=".new_content"/>
-        <activity android:name=".content"/>
-        <activity android:name=".result"/>
-        <activity android:name=".Play0"/>
-        <activity android:name=".Play1"/>
-        <activity android:name=".Play2"/>
-        <activity android:name=".Play3"/>
-        <activity android:name=".Play4"/>
-        <activity android:name=".Tip0"/>
-        <activity android:name=".Tip1"/>
-        <activity android:name=".Tip2"/>
-        <activity android:name=".Tip3"/>
-        <activity android:name=".Tip4"/>
-        <activity android:name=".Tip5"/>
-        <activity android:name=".Tip6"/>
+        <activity android:name="com.example.moyamo.Navheadermain" />
+        <activity android:name="com.example.moyamo.Loginlayout" />
+        <activity android:name="com.example.moyamo.Joinlayout" />
+        <activity android:name="com.example.moyamo.ListQnA" />
+        <activity android:name="com.example.moyamo.qna1" />
+        <activity android:name="com.example.moyamo.qna2" />
+        <activity android:name="com.example.moyamo.qna3" />
+        <activity android:name="com.example.moyamo.qna4" />
+        <activity android:name="com.example.moyamo.qna5" />
+        <activity android:name="com.example.moyamo.qna6" />
+        <activity android:name="com.example.moyamo.qna7" />
+        <activity android:name="com.example.moyamo.qna8" />
+        <activity android:name="com.example.moyamo.ListQnA2" />
+        <activity android:name="com.example.moyamo.new_content" />
+        <activity android:name="com.example.moyamo.content" />
+        <activity android:name="com.example.moyamo.result" />
+        <activity android:name="com.example.moyamo.Play0" />
+        <activity android:name="com.example.moyamo.Play1" />
+        <activity android:name="com.example.moyamo.Play2" />
+        <activity android:name="com.example.moyamo.Play3" />
+        <activity android:name="com.example.moyamo.Play4" />
+        <activity android:name="com.example.moyamo.Tip0" />
+        <activity android:name="com.example.moyamo.Tip1" />
+        <activity android:name="com.example.moyamo.Tip2" />
+        <activity android:name="com.example.moyamo.Tip3" />
+        <activity android:name="com.example.moyamo.Tip4" />
+        <activity android:name="com.example.moyamo.Tip5" />
+        <activity android:name="com.example.moyamo.Tip6" />
     </application>
 
 </manifest>
